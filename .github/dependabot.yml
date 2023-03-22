@@ -18,3 +18,5374 @@ updates:
   labels:
     - "backport"
     - "dependencies"
+
+
+  - package-ecosystem: maven
+    directory: /demo/bnd-pde-workspace
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp01/tycho.demo.itp01.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp01/tycho.demo.itp01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build01/pomfirst-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build01/pomfirst-thirdparty
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build02/tycho.demo.itp02.bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp02/build02/tycho.demo.itp02.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/example-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/example-feature-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/mars
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/root-files-windows
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/itp04-rcp/root-files
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/justj/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/multi-release-jar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/publish-p2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/bnd/osgi-test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/bnd
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/surefire
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/surefire/with-maven-layout
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/surefire/with-source-folder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/tycho
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/tycho/samemodule
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/tycho/standalone/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/tycho/standalone
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /demo/testing/tycho/standalone/test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /p2-maven-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /sisu-osgi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /sisu-osgi/sisu-equinox-embedder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /sisu-osgi/sisu-equinox-launching
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /sisu-osgi/sisu-osgi-api
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /sisu-osgi/sisu-osgi-connect
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /target-platform-configuration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-apitools-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-artifactcomparator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-baseline-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-bnd-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-build
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/dirtySubmodules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/dirtyUnrelatedSubmodules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/dirtyWorkingTreeWarningOnly
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/dirtyworkingtree
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-buildtimestamp-jgit/src/it/submodules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-bundles/org.eclipse.tycho.core.shared
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-bundles/org.eclipse.tycho.embedder.shared
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-bundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-jdt
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/367431_frameworkExtensionCompileAccessRules/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/accessrules/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/accessrules/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/accessrules/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/accessrules/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/accessrules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/bootclasspath-accessrules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/bree-target-compatibility
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath/p005
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/classpath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/compiler-args
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/compilermessages
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/crosstalk/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/crosstalk/bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/crosstalk
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/embedednonclasspath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/eeAsRequirement
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p005
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p006-newerEEthanBREE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment/p007-automaticReleaseCommpilerArgumentDeterminationDisabled
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/executionEnvironment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/indirectDependencies/A
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/indirectDependencies/B
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/indirectDependencies/C
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/indirectDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/jreCompilationProfile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/logs/customCompilerArgs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/logs/customCompilerArgsAndLog
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/logs/multiJarMultiDir
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/logs/multiJarSingleDir
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/logs/singleJar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/multijar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/multisource/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/multisource/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/projectSettings/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/projectSettings/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/resources/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/resources/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/resources/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/resources/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-compiler-plugin/src/test/resources/projects/useJDKBREE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/featureToIU/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/featureToIU/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/featureToIU
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/iuToFeature/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/iuToFeature/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/iuToFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/justIUs/iuA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/justIUs/iuB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/iuBuildOrder/justIUs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/TYCHO0378unwantedSelfDependency
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/accessrules/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/accessrules/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/accessrules/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/accessrules/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/accessrules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bootclasspath/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bootclasspath/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bootclasspath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree/buildproperties
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree/manifest-minimal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree/manifest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree/pom-default
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree/pom-hard
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bree
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bundleNativeCode/bundleWithNativeCode
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bundleNativeCode/bundleWithNativeCodeUsingAliases
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/bundleNativeCode/bundleWithNativeCodeUsingInvalidAliases
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/customProfile/alternativeProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/customProfile/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/customProfile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/deepReexport/A
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/deepReexport/B
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/deepReexport/C
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/deepReexport/D
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/deepReexport
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/dummy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/eeProfile.resolution.fragments/org.eclipse.jface.databinding
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/eeProfile.resolution.fragments/org.eclipse.swt.gtk.linux.x86
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/eeProfile.resolution.fragments/org.eclipse.swt
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/eeProfile.resolution.fragments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/explicitenvironment/missingArch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/explicitenvironment/missingOs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/explicitenvironment/missingWs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/explicitenvironment/valid
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/exportpackage/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/exportpackage/dep
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/exportpackage/dep2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/exportpackage/dep3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/exportpackage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/extraclasspath/b01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/extraclasspath/b02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/extraclasspath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-import-class-provided-by-fragment-from-package-exported-by-host/bundle1.fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-import-class-provided-by-fragment-from-package-exported-by-host/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-import-class-provided-by-fragment-from-package-exported-by-host/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-import-class-provided-by-fragment-from-package-exported-by-host
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-mandatory/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-mandatory/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-mandatory/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-mandatory
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-package/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-package/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-package/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment-split-package
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment/client
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment/dep
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment/fragment2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment/host
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/frameworkBundle/org.eclipse.osgi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/implicitenvironment/ambiguous
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/implicitenvironment/none
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/implicitenvironment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/implicitenvironment/simple
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/importVsRequire/A
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/importVsRequire/B
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/importVsRequire
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/indirectDependencies/A
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/indirectDependencies/B
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/indirectDependencies/C
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/indirectDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/javase-11
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/mavendeps/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/mavendeps/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/mavendeps/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/mavendeps
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/missingentry
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/moduleorder/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/moduleorder/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/moduleorder/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/moduleorder/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/moduleorder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/nodotonclasspath/consumer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/nodotonclasspath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/nodotonclasspath/provider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/projectpriority/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/projectpriority/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/projectpriority
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/reexport/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/reexport/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/reexport/p003
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/reexport/p004
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/reexport
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/referencesItself
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/remoterepo/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/resolutionerror/feature_missing_feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/resolutionerror/feature_missing_plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/resolutionerror/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/sourceFolders
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/targetJRE/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/targetJRE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/projects/targetJRE/target-definition
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/repositories/javax.xml-src/dom-client
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/repositories/javax.xml-src/javax.xml
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/duplicate_action
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/duplicate_scope_version
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/missing_action
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/missing_scope_id
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/missing_scope_type
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/valid_removeAll
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-core/src/test/resources/targetfilter/valid_restrictTo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-ds-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/explicitTarget_KO
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/explicitTarget_OK
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/explicitTarget_OK_KO_OK_KO
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/implicitTarget_KO
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/implicitTarget_OK
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/target-platform-validation-plugin/src/it/noTarget
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-custom-bundle-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-dependency-tools-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/additionalDepsTest/doc.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/additionalDepsTest/my.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/additionalDepsTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/test1/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/test1/docbundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/test1/doclet
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/test1/feature1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-document-bundle-plugin/src/it/test1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-eclipserun-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-eclipserun-plugin/src/it/eclipse-antrunner
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/dependencyList/dependency-with-nested-jar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/dependencyList/multi-modules/dependency
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/dependencyList/multi-modules/dependent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/dependencyList/multi-modules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/testpomless-flat/aggregate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/testpomless-structured
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/testpomless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-extras-its/src/test/resources/testsetversionpomless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/bundleHigherVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/bundleLowerVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/featureHigherVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/featureLowerVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/it/baseline/repo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/test/resources/mirroring/testProject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-p2-extras-plugin/src/test/resources/publisher/testProject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/mapping/precedence
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/modelreader/features
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/modelreader/grandparentInheritance
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/modelreader/plugins
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/modelreader/products
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/modelreader/updatesites
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-pomless/src/test/resources/testpomless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-sourceref-jgit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-version-bump-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-extras/tycho-version-bump-plugin/src/it/update-target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-gpg-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE1007
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE937/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE937/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE937
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE949jarDirectoryBundles/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE949jarDirectoryBundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE949jarDirectoryBundles/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/MNGECLIPSE949jarDirectoryBundles/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01/build01.bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01/build01.bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01/build01.bundle03
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01/build01.feature01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01/build01.site01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build02/build02.bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build02/build02.feature01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build02/build02.site01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build03/build03.bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0209tychoRepositoryRoundtrip/build03
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0294ProductP2TargetPlatformResolver/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0294ProductP2TargetPlatformResolver
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0294ProductP2TargetPlatformResolver/product.bundle-based
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0367localRepositoryCrosstalk/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0367localRepositoryCrosstalk/bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0383dotQualifierMatching/featureDotQualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0383dotQualifierMatching/productDotQualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0383dotQualifierMatching/productDotQualifier/productDotQualifier.plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0383dotQualifierMatching/productDotQualifier/productDotQualifier.product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0404pomDependencyConsiderExtraClasspath/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0404pomDependencyConsiderExtraClasspath/extra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0404pomDependencyConsiderExtraClasspath
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0439repositoryCategories
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0453expandReleaseVersion/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0453expandReleaseVersion/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0453expandReleaseVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO0453expandReleaseVersion/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/eclipse32/feature-rcp/HeadlessFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/eclipse32/feature-rcp/HeadlessPlugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/eclipse32/feature-rcp/HeadlessProduct
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/eclipse32/feature-rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/eclipse32/plugin-rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/feature-rcp/HeadlessFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/feature-rcp/HeadlessPlugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/feature-rcp/HeadlessProduct
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/feature-rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/plugin-rcp-app/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/plugin-rcp-app
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/plugin-rcp-app/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO109product/product-nozip/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO134signJars
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO134signJars/tycho.demo.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO134signJars/tycho.demo.site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO134signJars/tycho.demo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO192sourceBundles/helloworld.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO192sourceBundles/helloworld.updatesite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO192sourceBundles/helloworld
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO192sourceBundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO240includeLaunchers/includeLaunchers
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO240includeLaunchers/noIncludeLaunchers
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO246rcpSourceBundles/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO246rcpSourceBundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO246rcpSourceBundles/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO253extraClassPathEntries/org.eclipse.tycho.testExtraClasspathTest1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO253extraClassPathEntries/org.eclipse.tycho.testExtraClasspathTest2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO253extraClassPathEntries/org.eclipse.tycho.testExtraClasspathTest3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO253extraClassPathEntries
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO279HttpProxy/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO279HttpProxy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO285EclipseSourceBundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO300launcherIcons/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO308importSystemPackage/local_install
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO308importSystemPackage/p2_repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider/artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO309pomDependencyConsider/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO321deployableFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO330validateVersion/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO330validateVersion/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO350ClassCastException
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider/artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO418pomDependencyConsider/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO449SrcIncludesExcludes
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO476
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO502sourceBundleQualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO503Path With Spaces
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO590annotationProcessing/annotated-project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO590annotationProcessing/annotation-processor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TYCHO590annotationProcessing
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TychoVersionsPluginTest/compat
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TychoVersionsPluginTest/update-target/including
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TychoVersionsPluginTest/update-target/other
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/TychoVersionsPluginTest/update-target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/api-tools/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/api-tools
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/automaticSourceGeneration/helloworld.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/automaticSourceGeneration/helloworld.updatesite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/automaticSourceGeneration/helloworld
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/automaticSourceGeneration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/add-header
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/add-method-internal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/add-method
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/add-resource-with-bump
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/add-resource
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/api-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/base-repo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline/base-repo/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/baseline
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/ci-friendly/buildqualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.additional.bundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.additional.bundles2/a
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.additional.bundles2/b
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.additional.bundles2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.annotations
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.exclude
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.extraExports.java17
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.extraExports
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.failOnWarning
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.fragments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.javaxAnnotationImport
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.junitcontainer/junit4-in-bundle-with-dependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.junitcontainer/junit4-in-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.libentry/my.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.limit.modules/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.limit.modules
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.mavenCompilerPlugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.messages/missing-bree/java17.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.messages/missing-bree
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.misconfiguration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.pomdependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/compiler.requireJREPackageImports
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/custom-bundle-plugin/custom-bundle-parent/custom.bundle.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/custom-bundle-plugin/custom-bundle-parent/custom.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/custom-bundle-plugin/custom-bundle-parent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/custom-bundle-plugin/unresolvable-custom-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eclipserun.bundleStartLevel
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.custom/build/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.custom/build
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.custom/build/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java11/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java11
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java11/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java13/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java13
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java13/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java14/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java14
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java14/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java15/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java15
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java15/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java16/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java16
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java16/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java17/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java17
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java17/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java18/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java18
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java18/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7/repository1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.java7/repository2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.none/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.resolution.fragments/org.eclipse.jface.databinding
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.resolution.fragments/org.eclipse.swt.gtk.linux.x86
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.resolution.fragments/org.eclipse.swt
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile.resolution.fragments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile/dependencyHigherBREE/bundleHigherBREE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile/dependencyHigherBREE/bundleLowerBREE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile/dependencyHigherBREE
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile/ee-from-bree
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/eeProfile/ee-from-pom
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/feature.dependency
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/feature.multiplefilters/example-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/feature.multiplefilters/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/feature.multiplefilters
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/feature.restrictions/sample.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.build/feature.patch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.build/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.build
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.external/build/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.external/build
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/featurePatch.external/build/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/gpg.sign.p2.basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/gpg.sign.p2.basic/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/gpg.sign.p2.basic/tp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue1093
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue23/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue23/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue23
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue271
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue697/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue697/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue697
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/issue697/target-platform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.artifact/iu-with-artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.artifact/iu-without-artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.artifact/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.product/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.product/iuForRootFile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/iu.product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing-extra/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing-extra/plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing-extra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing-extra/rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing/plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/jar-signing/rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature.setVersion/license.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature.setVersion/other.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature.setVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature/feature.conflicting-dependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature/feature.license
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature/feature.without-properties
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/licenseFeature/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/limitations.tychoVersions/p1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/limitations.tychoVersions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/limitations.uniqueBaseDirs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/limitations.uniqueBaseDirs/test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/missingPluginVersions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/mixed.reactor/felix.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/mixed.reactor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/mixed.reactor/sdk.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/mixed.reactor/tycho.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.product/tycho.demo.application
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.product/tycho.demo.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.product/tycho.demo.rcp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/bundle.osx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/deployablefeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/fragment.linux
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/fragment.windows
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiPlatform.reactor/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/multiple-gson
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.extraUnits/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.extraUnits/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.extraUnits
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.hostRequireFragment/consumer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.hostRequireFragment/fragments/fragment-linux64
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.hostRequireFragment/fragments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.hostRequireFragment/host
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.hostRequireFragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.multiEnv/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.multiEnv/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.multiEnv
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Inf.multiEnv/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.duplicateDownload
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.filter/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.filter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.filter/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.ftp/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.ftp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.includeAllSources.oldOrbit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.includeAllSources
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.mavenRepo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.propertyPropagation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor/example-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor/example-included-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor/example-included-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.reactor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.repositoryRef.location
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/bundle3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/repository-allDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.transitive/repository-includedOnly
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository.unresolvableIU
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2Repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.pgp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.pgp/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.reactor/deployme
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.reactor/ignoreme-property
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.reactor/ignoreme
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.reactor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite.reactor/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite/consumer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/p2mavensite/producer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.attachedZip
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.build-qualifier/jar-packaging
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.buildtimestamp/mavenPlugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.buildtimestamp/plugin01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.buildtimestamp/plugin02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.buildtimestamp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.consumer.pom/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.consumer.pom
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.manifestAndFeature/feature1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.manifestAndFeature/plugin1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.manifestAndFeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.nestedJarsAndDirs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src/bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src/feature01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src/feature02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/baseline/src/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/changedattachedartifact/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/changedattachedartifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/changedattachedartifact/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/contentchanged/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/contentchanged/feature02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/contentchanged
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/contentchanged/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/newattachedartifact/feature02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/newattachedartifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/packaging.reproducibleArtifacts/newattachedartifact/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependency.ignore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependency.wrapAsBundle/org.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependency.wrapAsBundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependency.wrapAsBundle/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.buildtimestamp.jgit/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.buildtimestamp.jgit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.generate/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.generate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.generate/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.reuse/testDataBundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.reuse/testProject/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.reuse/testProject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.p2Data.reuse/testProject/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.systemScope/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.systemScope
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomDependencyConsider.systemScope/test-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/alternative-parent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/bundles-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/bundles/foo.bar.bundle-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/foo.bar.feature-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/foo.bar.plugin-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/foo.bar.product-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model/foo.bar.target-2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-model
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless-tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/pomless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.archiveFormat
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.clean
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.crossReference/eclipse-product-prototype
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.crossReference/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.crossReference
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.crosstalk
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.differentVersions/feature.indirect
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.differentVersions/feature.root
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.differentVersions/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.differentVersions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.differentVersions/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.duplicateIUs/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.duplicateIUs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.duplicateIUs/product1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.duplicateIUs/product2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation/example-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation/root-level-installed-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.installation/target-definition
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.invalid
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.mavenLocation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.metaRequirements/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.metaRequirements
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.metaRequirements/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.metaRequirements/touchpoint
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.pgp
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.rootFiles/eclipse-repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.rootFiles/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.rootFiles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.sourceFile.leftovers
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/product.types
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/bundle1a
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/bundle1b
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/feature1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/feature2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/feature3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/reactor.makeBehaviour/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.cycles/plugin1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.cycles/plugin2.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.cycles/plugin2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.cycles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/artificial
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/dynamicimport-package/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/dynamicimport-package/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/dynamicimport-package
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/fragment-split-package/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/fragment-split-package/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/fragment-split-package/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/fragment-split-package
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/implicit-fragment-import-package/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/implicit-fragment-import-package/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/implicit-fragment-import-package/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/implicit-fragment-import-package
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/import-package-directives/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/import-package-directives/bundleA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/import-package-directives/bundleB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.extraRequirements/import-package-directives
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.generateSources/a
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.generateSources/b
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.generateSources
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.multipleDownloads/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.multipleDownloads
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.nativeCode
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.optionalDependencies/require-bundle-ignore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.optionalDependencies/require-bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.pomDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.pomDependencies/target.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.pomDependencies/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.reexportBundle/org.eclipse.core.expressions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.reexportBundle/transitively.require.org.eclipse.osgi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.split/org.eclipse.equinox.security
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.tycho1127_addjars_issue/a
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.tycho1127_addjars_issue/b
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.tycho1127_addjars_issue
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.usesConstraintViolations/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.usesConstraintViolations
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/resolver.usesNecessary
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sameAbsoluteTarget/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sameAbsoluteTarget/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sameAbsoluteTarget
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/client-common/features/cs.client.common.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/client-common/plugins/cs.generic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/client-common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/client-target-platform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/clients/Analytics/features/selundqma.ub.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/clients/Analytics/plugins/selundqma.ub.ga.impl
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/clients/Analytics
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma/clients
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/selundqma
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourceBundle.autoSkip/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourceBundle.autoSkip/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourceBundle.autoSkip
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourceBundle.nestedJars
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/feature.consumingsourcefeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/sourcefeature.bundle.nosource
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/sourcefeature.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/sourcefeature.feature.indirect
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/sourcefeature.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/basic/sourcefeature.repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/extra-source-bundles/extra.sourcefeature.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/extra-source-bundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/extra-source-bundles/sourcefeature.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/extra-source-bundles/sourcefeature.repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/license-feature/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/license-feature/license.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/license-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/remote-source-bundles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/remote-source-bundles/sourcefeature.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/sourcePlugin/remote-source-bundles/sourcefeature.repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.appArgs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleResources
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleStart/explicit/explicit.start.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleStart/explicit/explicit.start
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleStart/explicit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleStart/implicit/ds.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleUnpack
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleUnpack/tycho340.plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.bundleUnpack/tycho340.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.cli/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.cli/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.cli
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.combinedtests/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.combinedtests/bundle5.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.enableAssertions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.envVars
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.frameworkExtensions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit4/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit47/categories
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit47/parallel
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit4and54/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit5/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit54/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit56/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit59/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.junit5tempdir/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.jvmArgs/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.jvmArgs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.noTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.opentest4j/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.optionalDependencies.ignore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.optionalDependencies.reactor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.optionalDependencies.reactor/reactorbundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.optionalDependencies.reactor/testbundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.p2InstalledRuntime/example-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.p2InstalledRuntime/example-product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.p2InstalledRuntime/extProductTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.p2InstalledRuntime
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.p2InstalledRuntime/productTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle.multipleVersions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle.multipleVersions/surefire.requireBundle.bundle_v1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle.multipleVersions/surefire.requireBundle.bundle_v2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle.multipleVersions/surefire.requireBundle.bundletest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle/surefire.requireBundle.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.requireBundle/surefire.requireBundle.bundletest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.runorder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.systemProperties
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testFragment/p1.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testFragment/p1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testFragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testSelection
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testng/bundle.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testng/bundle.testGroups
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testng/bundle.testSuites
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testng
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.testng/testng.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.toolchains
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.trimstacktrace
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/surefire.twoJunitVersions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/symLink/project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.caching
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.caching/target.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.caching/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.junit/bundle-example
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.junit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.artifact.junit/target-platform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.directory
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.directory/target.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.directory/test.directory.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.httpAuthentication
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven-deps
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven-scopes
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven-scopes/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.autofeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.autofeature/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.autofeature/test.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.autofeature/test.product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.eclipse-feature/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.eclipse-feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.eclipse-feature/target-platform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.httpAuthentication
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.httpAuthentication/target.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.httpAuthentication/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.pom
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.pom/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.pom/test.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.wrapAsBundle/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.wrapAsBundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven.wrapAsBundle/target-platform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven/target.test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven/test.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.maven/test.site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenMulti
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenMulti/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenMulti/test.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenRepos
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenRepos/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.mavenRepos/test.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineMode/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineMode/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineMode
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineMode/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeCompositeRepo/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeCompositeRepo/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeCompositeRepo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeXZRepo/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeXZRepo/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.offlineModeXZRepo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.packagingType/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.packagingType
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.packagingType/target-definition
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithDependenciesInDifferentTargetLocation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithDependenciesInDifferentTargetLocation/project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithDependenciesInDifferentTargetLocation/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithMissingDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithMissingDependencies/project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.plannerWithMissingDependencies/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.references
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.references/target.refs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.references/test.bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.restriction.filter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.restriction.targetFile/testProject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.restriction.targetFile/testProject/trt.assembly
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.restriction.targetFile/testProject/trt.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.restriction.targetFile/testProject/trt.targets
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithDependenciesInDifferentTargetLocation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithDependenciesInDifferentTargetLocation/project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithDependenciesInDifferentTargetLocation/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithMissingDependencies
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithMissingDependencies/project
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.slicerWithMissingDependencies/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.usefile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.usefileAbsolute
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/target.userepositories
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho-ds
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho.xtend
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho001/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho001/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho001/site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho026
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho026/tycho.demo.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho026/tycho.demo.site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho026/tycho.demo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA/FeatureA.sdk
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA/FeatureA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA/PluginA.Extra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA/PluginA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA/SiteA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectA
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectB/FeatureB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectB/PluginB.extra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectB/PluginB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectB/SiteB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectB
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC/FeatureC.sdk
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC/FeatureC
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC/PluginC.Extra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC/PluginC
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC/SiteC
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho136/projectC
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho154/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho154/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho154
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho937/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho937
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho98/bundle.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho98/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/tycho98
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-its/projects/workspaceReader/dependencyFromMavenRepo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-lib-detector
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-maven-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-metadata-model
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-p2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-p2/tycho-p2-director-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-p2/tycho-p2-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-p2/tycho-p2-publisher-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-p2/tycho-p2-repository-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/addMavenDescriptor/featureDefault
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/addMavenDescriptor/featureForcedToTrue
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/addMavenDescriptor/pluginDefault
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/addMavenDescriptor/pluginForcedToFalse
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/binIncludesNoDot/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/binIncludesNoDot
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/binIncludesSpaces
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/buildqualifier/fullyqualified
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/buildqualifier/noqualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/buildqualifier/p001
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/buildqualifier/p002
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/buildqualifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/customManifestNestedJar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/featureXmlGeneration/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/featureXmlGeneration
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/iuWithPayload
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/iuWithPayloadButNoArtifactReference
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/iuWithoutPayload
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/licenseFeature/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/matchingIds/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/matchingIds/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/matchingIds/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/matchingIds/test-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/noManifestVersion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/nonMatchingIds/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/nonMatchingIds/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/nonMatchingIds/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/nonMatchingIds/test-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/outputClassesInANestedFolder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/attachedfeature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic/bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic/feature02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/basic/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/unpasablequalifier/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/unpasablequalifier/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-packaging-plugin/src/test/resources/projects/stablebuildqualifier/unpasablequalifier
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-source-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-source-plugin/src/test/resources/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-spi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.bnd.executionlistener
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit4
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit47
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit5
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit54
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit55
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit56
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit57
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit57withvintage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit58
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit58withvintage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit59
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.junit59withvintage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.osgibooter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/org.eclipse.tycho.surefire.testng
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-surefire/tycho-surefire-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-testing-harness
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/aggregator/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/aggregator/detached
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/aggregator/parent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/aggregator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/buildpluginnogroupid
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/deepnesting/child/grandchild/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/deepnesting/child/grandchild
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/deepnesting/child
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/deepnesting
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementotherversion/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementotherversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementotherversion/someproject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementsimple/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementsimple
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencymanagementsimple/someproject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencynoversion/module
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencynoversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencynoversion/testmodule
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencyotherversion/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencyotherversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencyotherversion/someproject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencysimple/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencysimple
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/dependencysimple/someproject
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/exlicitversion/otherversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/exlicitversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/exlicitversion/sameversion
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/exportpackage
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/feature01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/feature02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/feature03
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/repository-product-only
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/multimodule/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/nonosgiversion/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/nonosgiversion/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/nonosgiversion/maven
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/nonosgiversion/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/nonosgiversion/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/pluginmanagement/jar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/pluginmanagement/plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/pluginmanagement
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/pomproperties
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/profile/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/profile/bundle02
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/profile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/profilenoid
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/simple
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/targetplatform/bundle01
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/targetplatform/targetplatform
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/repositoryWith2ProductFiles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updateeclipse/repositoryWithOneProductFile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/bundle
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/iu
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/product
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/repository
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/repositoryWith2ProductFiles
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/updatepom/repositoryWithOneProductFile
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/versionranges/bundle1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/versionranges/bundle2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/versionranges/bundle3
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/versionranges/fragment
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /tycho-versions-plugin/src/test/resources/projects/versionranges
+    schedule:
+      interval: daily
